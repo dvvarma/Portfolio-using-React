@@ -12,7 +12,9 @@ const LeftSide = () => (
                     <p className="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p>
                     <h1 className="o-font-lg ml-2 o-text-purple">Dharmesh Varma</h1>
                 </div>
-                <p className="text-center text-white">I am a frontend developer. I can provide clean code. I also can make website more & more interactive and effective by using topnotch frontend libraries and frameworks.</p>
+                <p className="text-center text-white">
+                I am a highly efficient and reliable professional who possesses a broad skill set for Frontend development. I have been working on a range of products and clients. I’ll be more focuses on creating Rich UI and code that is easy to read, maintain, & test to optimize the developers experience and the apps themselves.
+                </p>
                 <SocialList margin />
                 <div className="row mb-5 justify-content-center">
                     <a href="/" className="d-block m-3 text-white o-btn text-center py-2 position-relative">DOWNLOAD CV</a>

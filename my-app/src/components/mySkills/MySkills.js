@@ -3,9 +3,9 @@ import Title from './../title/Title';
 import Skills from '../skills/Skills';
 import Experiences from '../experience/Experiences';
 import withCustomScroll from './../../hoc/withCustomScroll';
-import './ResumeSide.scss';
+import './MySkills.scss';
 
-const ResumeSide = () => (
+const MySkills = () => (
     <>
         <Title>My Skills</Title>
             <Skills />
@@ -13,4 +13,4 @@ const ResumeSide = () => (
     </>
 );
 
-export default withCustomScroll(ResumeSide);
+export default withCustomScroll(MySkills);

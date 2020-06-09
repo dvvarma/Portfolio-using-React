@@ -21,7 +21,7 @@ const Navbar = ({ flexColumn, hover, justifyStart, toggleFunc }) => (
       >
         About
       </NavLink>
-      <NavLink
+      {/* <NavLink
         onClick={toggleFunc}
         to="/portfolio"
         activeClassName="o-menu-active"
@@ -31,10 +31,21 @@ const Navbar = ({ flexColumn, hover, justifyStart, toggleFunc }) => (
         }}
       >
         Portfolio
+      </NavLink> */}
+      <NavLink
+        onClick={toggleFunc}
+        to="/skill"
+        activeClassName="o-menu-active"
+        className={`position-relative m-3 text-dark ${hover ? "o-hover" : ""}`}
+        activeStyle={{
+          fontWeight: "bold",
+        }}
+      >
+        Skill
       </NavLink>
       <NavLink
         onClick={toggleFunc}
-        to="/resume"
+        to="/resumePdf"
         activeClassName="o-menu-active"
         className={`position-relative m-3 text-dark ${hover ? "o-hover" : ""}`}
         activeStyle={{

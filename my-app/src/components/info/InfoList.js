@@ -15,20 +15,20 @@ class InfoList extends React.Component{
     state = {
         allInfo: [
             {
-                infoTitle: 'Age',
-                infoValue: 27,
+                infoTitle: 'Name',
+                infoValue: 'Dharmesh Varma',
             },
             {
-                infoTitle: 'Languages',
-                infoValue: 'English, Hindi, Telugu',
+                infoTitle: 'Current Location',
+                infoValue: 'Hartford, CT',
             },
             {
                 infoTitle: 'Nationality',
                 infoValue: 'Indian',
             },
             {
-                infoTitle: 'Address',
-                infoValue: 'Hartford, CT',
+                infoTitle: 'Works as',
+                infoValue: 'Frontend Developer',
             }
         ]
     }

@@ -23,15 +23,15 @@ class Services extends React.Component{
         services: [
             {
                 Icon: FaCode,
-                title: 'Web Development',
-                subTitle: 'Code & Run',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
+                title: 'Worked on Web Apps',
+                subTitle: '',
+                description: ''
             },
             {
                 Icon: FaMobileAlt,
-                title: 'Mobile Application',
-                subTitle: 'Code & Run',
-                description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.'
+                title: 'Worked on Mobile Apps',
+                subTitle: '',
+                description: ''
             },
         ]
     }
